@@ -42,7 +42,7 @@ def bezier_curve(points, steps):
     
     return result
 
-img_size = 500
+img_size = 475
 img = Image.new("RGB", (img_size, img_size))
 draw = ImageDraw.Draw(img)
 
